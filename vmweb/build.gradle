@@ -6,7 +6,7 @@ plugins {
 
 group = 'com.example.aphx'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '11'
+sourceCompatibility = '8'
 
 configurations {
 	compileOnly {
@@ -26,10 +26,10 @@ repositories {
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-data-redis-reactive'
+//	implementation 'org.springframework.boot:spring-boot-starter-data-redis-reactive'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation 'org.springframework.session:spring-session-data-redis'
-	implementation 'org.springframework.kafka:spring-kafka'
+//	implementation 'org.springframework.session:spring-session-data-redis'
+//	implementation 'org.springframework.kafka:spring-kafka'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	runtimeOnly 'com.h2database:h2'
 	implementation group: 'com.baomidou', name: 'mybatis-plus-boot-starter', version: '3.4.3.4'
